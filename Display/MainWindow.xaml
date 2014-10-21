@@ -1,0 +1,9 @@
+﻿<Window x:Class="Display.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Start simulation" HorizontalAlignment="Left" VerticalAlignment="Top" Width="99" Margin="220,155,0,0" RenderTransformOrigin="0.232,0.5"/>
+
+    </Grid>
+</Window>

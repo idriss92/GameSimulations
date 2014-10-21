@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA2FF35E-00D7-4AEA-8313-55439FE3BE7D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Moteur</RootNamespace>
+    <AssemblyName>Moteur</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comportement\Combat\ComportementCombat.cs" />
+    <Compile Include="Comportement\Combat\ComportementCombatObjet.cs" />
+    <Compile Include="Comportement\Combat\ComportementEclaireur.cs" />
+    <Compile Include="Comportement\Combat\ComportementSoldat.cs" />
+    <Compile Include="Comportement\Deplacement\ComportementDeplacement.cs" />
+    <Compile Include="Comportement\Deplacement\ComportementDeplacementObjet.cs" />
+    <Compile Include="Comportement\RecupererTresor\ComportementRecupererTresor.cs" />
+    <Compile Include="Comportement\Son\ComportementEmettreSon.cs" />
+    <Compile Include="Objet\FactoryObjetBattleField.cs" />
+    <Compile Include="Objet\ListeObjet\Argent.cs" />
+    <Compile Include="Objet\ListeObjet\Base.cs" />
+    <Compile Include="Objet\ListeObjet\Bombe.cs" />
+    <Compile Include="Objet\ListeObjet\CharDassaut.cs" />
+    <Compile Include="Objet\ListeObjet\Helico.cs" />
+    <Compile Include="Objet\ListeObjet\Or.cs" />
+    <Compile Include="Objet\ListeObjet\Tour.cs" />
+    <Compile Include="Objet\ListeObjet\TrouMortel.cs" />
+    <Compile Include="Objet\ListeObjet\TrouRetention.cs" />
+    <Compile Include="Objet\ObjetAbstrait.cs" />
+    <Compile Include="Objet\ObjetMere.cs" />
+    <Compile Include="Objet\ObjetOffensifAbstrait.cs" />
+    <Compile Include="Objet\ObjetTresorNonOffensif.cs" />
+    <Compile Include="Objet\type\eObjet.cs" />
+    <Compile Include="Observateur\ModeFonctionnement.cs" />
+    <Compile Include="Observateur\ObservateurAbstrait.cs" />
+    <Compile Include="Observateur\Organisation.cs" />
+    <Compile Include="Observateur\SujetObservateurAbstrait.cs" />
+    <Compile Include="Objet\FactoryObjet.cs" />
+    <Compile Include="Personnages\FactoryPersonnageBattleField.cs" />
+    <Compile Include="Personnages\ListePerso\Eclaireur.cs" />
+    <Compile Include="Personnages\ListePerso\Soldat.cs" />
+    <Compile Include="Personnages\Objectif\eObjectif.cs" />
+    <Compile Include="Personnages\FactoryPersonnage.cs" />
+    <Compile Include="Personnages\Personnage.cs" />
+    <Compile Include="Personnages\Type\ePersonnage.cs" />
+    <Compile Include="Plateau\Acces.cs" />
+    <Compile Include="Plateau\AccesAbstrait.cs" />
+    <Compile Include="Plateau\BattleField\FabriqueBattleField.cs" />
+    <Compile Include="Plateau\BattleField\PlateauDeJeuBattleField.cs" />
+    <Compile Include="Plateau\BoutTerrain.cs" />
+    <Compile Include="Plateau\EnvironnementDeJeu.cs" />
+    <Compile Include="Plateau\FabriquePlateauDeJeuAbstrait.cs" />
+    <Compile Include="Plateau\Inconnu\FactoryEnvironnementDeJeu.cs" />
+    <Compile Include="Plateau\Labyrinthe\Adjacent.cs" />
+    <Compile Include="Plateau\Labyrinthe\Case.cs" />
+    <Compile Include="Plateau\Labyrinthe\FactoryLabyrinthe.cs" />
+    <Compile Include="Plateau\Labyrinthe\Labyrinthe.cs" />
+    <Compile Include="Plateau\PlateauDeJeu.cs" />
+    <Compile Include="Plateau\PlateauDeJeuAbstrait.cs" />
+    <Compile Include="Plateau\Tunnel.cs" />
+    <Compile Include="Plateau\Zone.cs" />
+    <Compile Include="Plateau\ZoneAbstraite.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simulation.cs" />
+    <Compile Include="TourDeJeu\TourDeJeu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Comportement\Combat\Type\" />
+    <Folder Include="Comportement\Deplacement\Type\" />
+    <Folder Include="Plateau\TerrainFoot\" />
+    <Folder Include="Plateau\TowerDefense\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

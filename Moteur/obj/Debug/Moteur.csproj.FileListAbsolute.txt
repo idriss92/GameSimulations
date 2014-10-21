@@ -1,0 +1,5 @@
+C:\DevTFS\Simulation\SimulationGames\Moteur\bin\Debug\Moteur.dll
+C:\DevTFS\Simulation\SimulationGames\Moteur\bin\Debug\Moteur.pdb
+C:\DevTFS\Simulation\SimulationGames\Moteur\obj\Debug\Moteur.csprojResolveAssemblyReference.cache
+C:\DevTFS\Simulation\SimulationGames\Moteur\obj\Debug\Moteur.dll
+C:\DevTFS\Simulation\SimulationGames\Moteur\obj\Debug\Moteur.pdb

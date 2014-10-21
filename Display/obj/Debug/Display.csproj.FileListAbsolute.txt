@@ -1,0 +1,15 @@
+C:\DevTFS\Simulation\SimulationGames\Display\bin\Debug\Display.exe.config
+C:\DevTFS\Simulation\SimulationGames\Display\bin\Debug\Display.exe
+C:\DevTFS\Simulation\SimulationGames\Display\bin\Debug\Display.pdb
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\Display.csprojResolveAssemblyReference.cache
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\MainWindow.baml
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\MainWindow.g.cs
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\App.g.cs
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\Display_MarkupCompile.cache
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\Display.g.resources
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\Display.Properties.Resources.resources
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\Display.csproj.GenerateResource.Cache
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\Display.exe
+C:\DevTFS\Simulation\SimulationGames\Display\obj\Debug\Display.pdb
+C:\DevTFS\Simulation\SimulationGames\Display\bin\Debug\Moteur.dll
+C:\DevTFS\Simulation\SimulationGames\Display\bin\Debug\Moteur.pdb
